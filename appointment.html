@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Appointment - Glamour Salon</title>
+
+    <link rel="stylesheet" href="css/appointment.css">
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+    <div class="logo">
+        <img src="images/logo/logo.png">
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+
+        </ul>
+
+    </nav>
+
+    <a href="appointment.html" class="book-btn active-btn">
+        BOOK APPOINTMENT
+    </a>
+
+</header>
+
+<!-- HERO -->
+
+<section class="appointment-hero">
+
+    <img src="images/banner/banner6.png">
+
+   
+
+</section>
+
+<!-- APPOINTMENT SECTION -->
+
+<section class="appointment-section">
+
+    <!-- LEFT -->
+
+    <div class="appointment-left glass-box">
+
+        <p class="small-title">
+            RESERVE YOUR TIME
+        </p>
+
+        <h2>
+            Get Premium <span>Salon Care</span>
+        </h2>
+
+        <p class="desc">
+            Schedule your beauty session with our professional stylists.
+            Relax in luxury and enjoy the perfect salon experience.
+        </p>
+
+        <div class="features">
+
+            <div class="feature">
+
+                <i class="fa-solid fa-spa"></i>
+
+                <div>
+                    <h4>Luxury Treatments</h4>
+                    <p>Professional beauty care services.</p>
+                </div>
+
+            </div>
+
+            <div class="feature">
+
+                <i class="fa-solid fa-user-tie"></i>
+
+                <div>
+                    <h4>Expert Stylists</h4>
+                    <p>Highly trained salon professionals.</p>
+                </div>
+
+            </div>
+
+            <div class="feature">
+
+                <i class="fa-solid fa-heart"></i>
+
+                <div>
+                    <h4>Relaxing Experience</h4>
+                    <p>Feel refreshed and beautiful.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- RIGHT -->
+
+    <div class="appointment-form glass-box">
+
+        <p class="small-title">
+            BOOK NOW
+        </p>
+
+        <h2>
+            Appointment <span>Form</span>
+        </h2>
+
+        <form id="appointmentForm">
+
+            <input type="text" id="name" placeholder="Full Name" required>
+
+            <input type="email" id="email" placeholder="Email Address" required>
+
+            <input type="text" id="phone" placeholder="Phone Number" required>
+
+            <select id="service" required>
+
+                <option value="">Select Service</option>
+
+                <option>Hair Styling</option>
+                <option>Bridal Makeup</option>
+                <option>Facial Treatment</option>
+                <option>Nail Art</option>
+                <option>Spa & Relaxation</option>
+
+            </select>
+
+            <input type="date" id="date" required>
+
+            <input type="time" id="time" required>
+
+            <textarea
+            id="message"
+            placeholder="Special Requests..."></textarea>
+
+            <button type="submit" class="submit-btn">
+                BOOK APPOINTMENT
+            </button>
+
+        </form>
+
+        <!-- SUCCESS -->
+
+        <div id="successMessage">
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            <h3>Appointment Booked Successfully!</h3>
+
+            <p>
+                Thank you for choosing Glamour Salon.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="js/appointment.js"></script>
+
+</body>
+</html>
